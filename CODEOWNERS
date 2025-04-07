@@ -1,8 +1,9 @@
 # All files
-*       @yourusername
+*       @no_name
 
 # Frontend files
 frontend/*  @frontend-team
+
 
 # Backend files
 backend/*   @backend-team
