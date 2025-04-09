@@ -46,3 +46,31 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+#nav-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  display: none;
+}
+
+#nav-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  #nav-toggle {
+    display: block;
+  }
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #007bff;
+    padding: 10px;
+  }
+  #nav-menu.open {
+    display: flex;
+  }
+}
+
