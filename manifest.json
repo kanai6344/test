@@ -1,15 +1,15 @@
 {
-  "name": "Sample App",
+  "name": "My App",
   "short_name": "App",
-  "start_url": "/index.html",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#007bff",
+  "theme_color": "#000000",
   "icons": [
     {
       "src": "icon.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "512x512"
     }
   ]
 }
