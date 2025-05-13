@@ -1,24 +1,5 @@
 body {
-  margin: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
 }
-
-nav {
-  background: #003366;
-  padding: 10px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  gap: 30px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-
