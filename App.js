@@ -3,14 +3,12 @@ import React, { useState } from 'react';
 function App() {
   const [tasks, setTasks] = useState([]);
   const [input, setInput] = useState('');
-
   const addTask = () => {
     if (input) {
       setTasks([...tasks, input]);
       setInput('');
     }
   };
-
   return (
     <div>
       <h1>To-Do List</h1>
@@ -22,6 +20,5 @@ function App() {
     </div>
   );
 }
-
 export default App;
 
